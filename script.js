@@ -1,2 +1,2 @@
-console.log('its working');
-Let theme-dots = document.getElementsbyClassName('Theme-dot')
+//console.dir(document);
+console.log(document.title);
