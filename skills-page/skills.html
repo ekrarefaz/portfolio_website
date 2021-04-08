@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
-    <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="skills.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,12 +20,7 @@
     <meta name="viewport" content="width-device-width, initial-scale=1">
     <title>my-skills-page</title>
   </head>
-
-
-
   <body>
-
-
     <div class="container-fluid">
         <!-- Navbar -->
       <nav class="navbar navbar-expand-sm bg-light navbar-light">
@@ -38,16 +32,15 @@
           <li class="nav-item ">
             <a class="nav-link active" href="skills.html">Skills</a>
           </li>
-
     </nav>
         </ul>
             <!-- Navbar ENDS-->
       <div class="jumbrotron jumbrotron-fluid s1">
-        <h1>My Skills</h1>
+        <h1 style="padding:20px;">My Skills</h1>
         <p>A page to describe my skills in a cool way</p>
       </div>
       <div class="container-fluid skills-1 s2">
-        <h3>Front-end Web Development</h3>
+        <h3 style="padding:20px;">Front-end Web Development</h3>
         <sup><strong><em>HTML</em></strong></sup>
         <div class="progress">
           <div class="progress-bar bg-info" style="width:80%">
@@ -75,18 +68,30 @@
             30%
           </div>
         </div>
-
-
-
-
+        <br>
       </div>
-      <div class="container-fluid skills-2">
-        <p>linux sysadmin</p>
-
+      <div class="container-fluid skills-2 s3">
+          <div class="jumbrotron">
+            <h3 style="padding:20px;">Linux</h3>
+          </div>
+          <div class="linux-skills-wrapper">
+            <span class="badge badge-pill badge-light">System Administration</span><br>
+            <span class="badge badge-pill badge-light">Server</span><br>
+            <span class="badge badge-pill badge-light">Monitoring Process</span><br>
+            <span class="badge badge-pill badge-light">Bash Scripting</span><br>
+            <span class="badge badge-pill badge-light">Security</span><br><hr>
+          </div>
       </div>
-      <div class="container-fluid skills-3">
-        <p>others</p>
 
+      <div class="container-fluid skills-3 s4">
+        <div class="jumbrotron">
+          <h3>Others</h3>
+        </div>
+        <div class="other-skills-wrapper">
+          <span class="badge badge-pill badge-light">C Programming</span><br>
+          <span class="badge badge-pill badge-light">Computer Networking</span><br>
+          <span class="badge badge-pill badge-light">Python</span><br>
+        </div>
       </div>
     </div>
   </body>

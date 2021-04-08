@@ -10,15 +10,36 @@
 }
 .s1{
   background-color: var(--mainColor);
-  border-bottom: 1px solid var(--borderColor);
+  border-bottom: 1px solid var(--borderColor);\
   overflow:auto;
+  margin: 2px;
 }
 .s2{
   background-color: var(--secondColor);
   border-bottom: 1px solid var(--borderColor);
   overflow:auto;
+  margin:2px;
 }
-
+.s3{
+  background-color: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);\
+  overflow:auto;
+  margin: 2px;
+}
+.s4{
+  background-color: var(--secondColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow:auto;
+  margin:2px;
+}
+.linux-skills-wrapper{
+  margin-top: 10px;
+  margin-bottom : 30px;
+}
+.other-skills-wrapper{
+  margin-top: 10px;
+  margin-bottom : 30px;
+}
 h1,h2,h3,h4,h5,h6, strong{
   color: var(--mainText);
   font-family : 'Russo One', sans-serif;
@@ -42,11 +63,11 @@ p, li, span, label, input, textarea{
 }
 
 .skills-2{
-  border : 5px solid red;
+
 }
 
 .skills-3{
-  border : 5px solid red;
+
 }
 .progress{
   padding-top: 3px;

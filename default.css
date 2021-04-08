@@ -26,6 +26,7 @@
 html, body{
   padding : 0px;
   margin : 0px;
+  background-color: #ded3d3;
 }
 
 h1,h2,h3,h4,h5,h6, strong{
