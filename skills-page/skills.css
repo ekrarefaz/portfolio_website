@@ -1,0 +1,54 @@
+:root{
+  --mainColor:#15202B;
+  --secondColor:#192734;
+  --mainText:#fff;
+  --secondText: #EAE0C8;
+  --previewBg:rgb(25, 38, 52, 0.8);
+  --previewShadow:black;
+  --borderColor:#c1c1c1;
+  --btn-color:#17a2b8;
+}
+.s1{
+  background-color: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow:auto;
+}
+.s2{
+  background-color: var(--secondColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow:auto;
+}
+
+h1,h2,h3,h4,h5,h6, strong{
+  color: var(--mainText);
+  font-family : 'Russo One', sans-serif;
+  font-weight:700;
+}
+em{
+  color : #EAE0C8;
+}
+
+p, li, span, label, input, textarea{
+  color: var(--secondText);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+
+}
+
+.skills-1{
+
+}
+
+.skills-2{
+  border : 5px solid red;
+}
+
+.skills-3{
+  border : 5px solid red;
+}
+.progress{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
