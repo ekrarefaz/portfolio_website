@@ -1,4 +1,4 @@
-/* ######################## LIGHT MODE #######################
+/* ######################## LIGHT MODE #######################*/
 :root{
   --mainColor:#eaeaea;
   --secondColor:#fff;
@@ -9,9 +9,10 @@
   --borderColor:#c1c1c1;
   --btn-color:black;
 }
-*/
+
 
 /*############################# Dark MODE  #################*/
+/*
 :root{
   --mainColor:#15202B;
   --secondColor:#192734;
@@ -22,7 +23,7 @@
   --borderColor:#c1c1c1;
   --btn-color:#17a2b8;
 }
-
+*/
 html, body{
   padding : 0px;
   margin : 0px;
